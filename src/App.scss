@@ -1,0 +1,224 @@
+@import './style/variable.scss';
+body {
+  font-family: sans-serif;
+  color: $textColor;
+}
+
+.App {
+  text-align: center;
+}
+.invalid-feedback {
+  font-size: 15px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 768px)
+{
+  .container {
+    max-width: 100% !important;
+  }
+}
+.safari-info{
+  font-size: 18px;
+  color: red;
+  margin-top: 30px;
+  text-align: left;
+}
+.outline-primary {
+  border: 1px solid #0067a0;
+  padding: 20px;
+  border-radius: 10px;
+  color: #0067a0;
+  text-align: left;
+}
+.btn-lg {
+  padding: 1.15rem 1.65rem;
+  font-size: 22px !important
+}
+.row {
+  margin: unset !important;
+}
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+* {
+  box-sizing: border-box;
+ }
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+ html,
+ body {
+  height: 100%;
+  position: relative;
+ }
+ .main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+ }
+ @media only screen and (max-width: 600px){
+   #public {
+     display: block !important;
+   }
+  .footer-row {
+      display: inline-grid;
+  }
+  footer p, footer img {
+    height: 30px;
+    display: block !important;
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    font-size: 16px;
+  }
+  footer {
+    position: relative !important;
+  }
+   .MuiTabs-flexContainer {
+     display: grid !important;
+     justify-content: space-between;
+   }
+   .MuiTab-wrapper {
+     justify-content: unset !important;
+     flex-direction: inherit !important;
+   }
+}
+ footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+ }
+.btn.btn-wide {
+  padding-left: 2.25rem !important;
+  padding-right: 2.25rem !important;
+}
+.app-footer {
+  width: 100%;
+  bottom: 0;
+  padding: 0;
+  border-top: 1px solid #c2bdba;
+}
+.footer-logos {
+  max-width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  min-height: 28px;
+  max-height: 28px !important;
+  margin: 5px auto;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.btn-primary {
+  background-color: #0067a0 !important;
+  border-color: #0067a0 !important;
+}
+.btn-outline-primary {
+  color: #0067a0;
+  border-color: #0067a0;
+}
+.btn-outline-primary:hover {
+  background-color: #0067a0 !important;
+  border-color: #0067a0 !important;
+}
+.app-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  justify-content: center;
+  margin: unset;
+  padding-bottom: 50px;
+  margin-top: 50px !important;
+  display: flex;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(82, 63, 105, 0.05);
+  box-shadow: 0px 0px 13px 0px rgba(82, 63, 105, 0.05);
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.Item-list {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.List-item-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  padding: unset !important;
+}
+.List-item {
+  width: 94%;
+  align-self: center;
+  margin: 6px;
+}
+
+.grey-title {
+  font-size: 30px !important;
+  color: #6e6e6e;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.grey-text {
+  color:#6e6e6e;
+  font-size: 22px;
+}
+
+.text-align-center {
+  text-align: center;
+  width: 100%;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #0067a0;
+}
+.App-link {
+  color: #61dafb;
+}
+.dropdown-menu {
+  left: -64px;
+}
+.nav-dropdown-menu button {
+  background-color: #e9e9f0 !important;
+    border-color: #e9e9f0 !important;
+    color: #0067a0;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

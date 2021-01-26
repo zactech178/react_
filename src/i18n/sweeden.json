@@ -1,0 +1,80 @@
+{
+    "home": {
+        "title": "Please tell us how you're feeling during this COVID-19 crisis",
+        "text": {
+            "p1": "This is an incredibly challenging time, and the pandemic has transformed our lives in ways we never could have imagined. We’re concerned about the health of our loved ones, grateful for the medical heroes and essential workers in our communities, and trying our best to adapt to this new normal. We want to be optimistic, but the ongoing stress and uncertainty is affecting us all, and it’s hard not to worry about what the future holds.",
+            "p2": "We are here to listen and learn from your experience. We invite you to share your thoughts with us — including your fears, frustrations, and hopes — as an audio or video recording by clicking the \"Share Your Thoughts\" link above. Explore what others have recorded by clicking the \"Listen to Others' Thoughts\". If you choose to contribute your recording to science, it will help us find the best ways to provide support to families.",
+            "p3": "The Child Mind Institute and Parents Magazine have partnered with the National Institute of Mental Health, OpenHumans.org, the CRI - Université de Paris, and Satrajit Ghosh and Sanu Abraham at MIT on this important research project.",
+            "p4": "CrisisLogger comes out of the MATTER Lab at the Child Mind Institute."
+        },
+        "shareButton": "Share your Thoughts",
+        "exploreButton": "Listen to Others` Throughts",
+        "login": "Login"
+    },
+    "login": {
+        "title": "Sign in to  CrisisLogger",
+        "emailLabel": "Email Address",
+        "passwordLabel": "Password",
+        "rememberMe": "Remember me",
+        "button": "Sign In"
+    },
+    "register": {
+        "title": "Register for CrisisLogger",
+        "usernameLabel": "Username",
+        "emailLabel": "Email Address",
+        "passwordLabel": "Password",
+        "passwordConfirmLabel": "Password Confirmation",
+        "rememberMe": "Remember me",
+        "button": "Register"
+    },
+    "choice": {
+        "title": "Would you like to share as a parent, teacher, student, health worker, patient, or as someone else?",
+        "text": "Note: You must be 16 or older to upload information on this website.",
+        "parent": {
+            "button": "Parent",
+            "text": "Parents are facing unique challenges of working from home while simultaneously juggling home life. At the same time, their children are trapped indoors, cut off from their friends, and the routine and structure of a school day have been entirely disrupted."
+        },
+        "teacher": {
+            "button": "Teacher",
+            "text": "Teachers are struggling to support students remotely. This introduces challenges in preparing educational materials that translate from the classroom to a computer, and competing with the distractions they and their students face at home."
+        },
+        "student": {
+            "button": "Student",
+            "text": "Students have to adapt to a wide variety of new challenges such as shifting to online classes, managing internet bandwidth issues, pausing research projects, and caring for younger siblings and loved ones."
+        },
+        "healthWorker": {
+            "button": "Health worker",
+            "text": "Health workers are on the front line of this crisis, and risk their own health and those they come into contact with. They are also faced with the suffering and fear of patients. The uncertainty and stressful circumstances can take an emotional toll."
+        },
+        "patient": {
+            "button": "Patient",
+            "text": "Whether a patient has mild or severe symptoms, this crisis has denied patients the comfort of visitors. This isolation and concern for their health and for those they may have come into contact with can leave them feeling lonely and frightened."
+        },
+        "other": {
+            "button": "Other",
+            "text": "Social distancing and the isolation of sheltering in has impacted people in ways they could not have foreseen. Beyond loneliness, there can be a sense of fear and uncertainty of what the future has in store."
+        }  
+    },
+    "recordType": {
+        "title": "Would you like to share via audio, video, or text message?",
+        "videoButton":"Video",
+        "textButton": "Text",
+        "audioButton": "Audio"
+    },
+    "sharedMessage": {
+        "title": "Please share any of your fears, frustrations, and needs, as well as what has been helping you get through this crisis.",
+        "message": "Type in the box below",
+        "text": "You will be able to save your text for private use or share it publicly.<span class='red-text'>Please avoid using any identifying names or information. </span> We hope that you will come back and record more as a journal of your thoughts and experiences.",
+        "videoText": "Your recording can be up to 5 minutes long. You will be able to save the recording for private use or share it publicly.<span class='red-text'> Please avoid using any identifying names or information. </span> It will be transcribed by Google's transcription service, and you will be able to view a word cloud created from the transcript. We hope that you will come back and record more as a journal of your thoughts and experiences.",
+        "audioText": "Your recording can be up to 5 minutes long. You will be able to save the recording for private use or share it publicly.<span class='red-text'> Please avoid using any identifying names or information. </span> It will be transcribed by Google's transcription service, and you will be able to view a word cloud created from the transcript. We hope that you will come back and record more as a journal of your thoughts and experiences.",
+        "text2": "If you would prefer, you can",
+        "audioText21": "If you would prefer, you can",
+        "videoText2": "If you would prefer, you can",
+        "recordVideo": " record video ",
+        "recordAudio": " record audio ",
+        "typeText": " type text ",
+        "or": "or",
+        "instead": "instead.",
+        "buttonText": "Request video camera"
+    }
+}

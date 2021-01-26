@@ -1,0 +1,94 @@
+@import '../../../style/variable.scss';
+
+.shared-message-container {
+    margin-top: 60px;
+    .grey-text {
+        text-align: left;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .message-box {
+        margin-bottom: 40px;
+    }
+    .link-block {
+        color: $linkColor;
+        cursor: pointer;
+        &:hover {
+            color: $linkHoverColor;
+        }
+    }
+    .camera-button {
+        background-color: $buttonColor;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: $hoverButtonColor;
+        }
+        img {
+            margin-right: 15px;
+            margin-top: -1px ;
+        }
+    }
+
+    .micro-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 155px;
+
+        .micro-block {
+            margin-top: 10px;
+            cursor: pointer;
+            width: 150px;
+            height: 150px;
+            border: 2px solid $redMicroColor;
+            border-radius: 50%;
+            margin-bottom: 10px;
+
+            &:hover {
+                width: 155px;
+                height: 155px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                transition: 0.3s;
+            }
+
+            .micro {
+                margin-top: 25%;
+                width: 75px;
+                height: 75px;            
+            }
+        }
+    }
+
+    .video-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 155px;
+
+        .video-block {
+            margin-top: 10px;
+            cursor: pointer;
+            width: 150px;
+            height: 150px;
+            border: 2px solid $redMicroColor;
+            border-radius: 50%;
+            margin-bottom: 10px;
+
+            &:hover {
+                width: 155px;
+                height: 155px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                transition: 0.3s;
+            }
+
+            .video {
+                margin-top: 25%;
+                width: 75px;
+                height: 75px;            
+            }
+        }
+    }
+}

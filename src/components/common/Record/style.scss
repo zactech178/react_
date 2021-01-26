@@ -1,0 +1,78 @@
+.sound-wave {
+    background-color: #00b8ff;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.video-camera-stop-btn ,.video-camera-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 155px;
+}
+.camera-icon-block {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #e74c3c;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.camera-recording-block {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    animation: recording 2s infinite ease-in-out;
+    position: relative;
+    height: 150px;
+    border: 2px solid #4ce73c;
+    border-color: #4ce73c !important;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.camera-icon-block img, .camera-recording-block img {
+    margin-top: 25%;
+    width: 75px;
+    height: 75px;
+}
+.camera-recording-block :before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    border-radius: 50%;
+    background: rgba( 0, 0, 0, 0.05 );
+    animation: recording_before 2s infinite ease-in-out;
+  }
+@keyframes recording {
+    from {
+        transform: scale( 1.1 );
+    }
+  
+    50% {
+        transform: none;
+    }
+  
+    to {
+        transform: scale( 1.1 );
+    }
+  }
+  
+  @keyframes recording_before {
+    80% {
+        width: 200px;
+        height: 200px;
+        margin: -100px;
+        opacity: 0;
+    }
+  
+    to {
+        opacity: 0;
+    }
+  }
+  

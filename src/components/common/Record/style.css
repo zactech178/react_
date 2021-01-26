@@ -1,0 +1,35 @@
+.sound-wave {
+    background-color: #00b8ff;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.video-camera-stop-btn ,.video-camera-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 155px;
+}
+.camera-icon-block {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #e74c3c;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.camera-recording-block {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #4ce73c;
+    border-color: #4ce73c !important;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.camera-icon-block img, .camera-recording-block img {
+    margin-top: 25%;
+    width: 75px;
+    height: 75px;
+}

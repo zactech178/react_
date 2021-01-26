@@ -1,0 +1,71 @@
+{
+  "name": "mindlogger-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.11",
+    "@material-ui/icons": "^4.9.1",
+    "antd": "^4.2.4",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "connected-react-router": "^6.8.0",
+    "country-state-city": "^1.0.4",
+    "detect-browser": "^5.1.1",
+    "eslint": "^6.2.2",
+    "i18next": "^19.4.4",
+    "i18next-browser-languagedetector": "^4.2.0",
+    "lodash": "^4.17.15",
+    "mic-recorder-to-mp3": "^2.2.1",
+    "moment": "^2.28.0",
+    "node-sass": "^4.14.1",
+    "object-to-formdata": "^1.6.4",
+    "query-string": "^6.13.2",
+    "ramda": "^0.26.1",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-country-region-selector": "^3.0.1",
+    "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.7.1",
+    "react-i18next": "^11.4.0",
+    "react-mic": "^12.4.6",
+    "react-moment": "^0.9.7",
+    "react-player": "^2.0.1",
+    "react-redux": "^7.1.1",
+    "react-redux-form": "^1.16.14",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.1.1",
+    "react-select-country-list": "^2.2.1",
+    "react-video-recorder": "^3.17.1",
+    "react-webcam": "^5.0.1",
+    "react-wordcloud": "^1.2.3",
+    "recorder-js": "^1.0.7",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-form": "^8.2.6",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0",
+    "sweetalert2": "^9.14.0",
+    "sweetalert2-react-content": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
